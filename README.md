@@ -1,13 +1,3 @@
----
-title: "L01 Review"
-author: "Data Science III (STAT 301-3)"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    highlight: "tango"
----
-
 ## Overview
 
 The goal of this lab is to review concepts and techniques from the previous quarter (STAT 301-2).
