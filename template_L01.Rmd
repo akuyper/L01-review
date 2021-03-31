@@ -50,7 +50,7 @@ a. What does it mean to be a mechanistic model?
 
 b. What does it mean to be an empirically driven model?
 
-c. How does the terminology mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
+c. How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
 
 d. In general, is a mechanistic or empirically driven model easier to understand? Explain.
 
@@ -62,37 +62,37 @@ f. Describe the bias-variance trade-off when considering the use of a mechanisti
 
 ### Question 5 
 
-Explain the difference between a regression and classification problems.
+Explain the difference between a regression and classification machine learning (ML) problems.
 
 <br>
 
-### Question 7 
+### Question 6 
 
 When splitting the data, why is it useful to stratify by the outcome/target variable? 
 
 <br>
 
+### Question 7 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it.
+
+<br>
+
 ### Question 8 
 
-Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explantion of why we use it.
+Briefly describe model tuning and why we use it.
 
 <br>
 
 ### Question 9 
 
-Briefly describe model tuning and why we use.
+What are two common performance metrics when dealing with a regression ML problem?
+
+What are two common performance metrics when dealing with a classification ML problem?
 
 <br>
 
-### Question 9 
-
-What are two common performance metrics when dealing with a regression machine learning (ML) problem?
-
-What are two common performance metrics when dealing with a classification machine learning (ML) problem?
-
-<br>
-
-### Question 11
+### Question 10
 
 A political candidate's campaign has detailed voter history data for their constituents. The campaign is interested in two questions:
 
