@@ -1,8 +1,9 @@
 # R & RStudio files
+*.Rproj
 .Rproj.user
 .Rhistory
 .Rdata
-.Rproj
+
 
 # mac related files
 *.DS_Store
