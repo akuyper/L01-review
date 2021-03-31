@@ -1,5 +1,6 @@
 ---
 title: "L01 Review"
+subtitle: "Data Science III (STAT 301-3)"
 author: "YOUR NAME HERE"
 output: 
   html_document:
@@ -10,67 +11,99 @@ output:
 
 ## Overview
 
-The goal of this lab is to review concepts and techniques from the previous quarter (STAT 301-2).
+The goal of this lab is to review vocabulary and concepts from the Data Science II (STAT 301-2).
 
-# Datasets
+## Questions
 
-We will be using the `wildfires.csv` dataset contained in the **data** subdirectory. Read `wildfires_codebook.html` to familiarize yourself with the dataset.
+Please complete the following questions. Be sure that your solutions are clearly indicated and that your document is neatly formatted.
 
-## Exercises
 
-Please complete the following exercises. Be sure that your solutions are clearly indicated and that your document is neatly formatted.
+### Question 1
 
-#### Load Packages
+Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
 
-```{r, message = FALSE}
-# Loading package(s)
+<br>
 
-```
+### Question 2
 
-### Exercise 1
+Explain the difference between supervised and unsupervised learning.
 
-The total area burned by a wildfire is of great concern to government planners. This is captured by the continuous variable `burned` in the `wildfires` dataset. The goal of this exercise is to build a model for predicting the total area burned by a wildfire (`burned`).
+<br>
 
-Use 10-fold cross validation with 2 repeats. Compare two models:
+### Question 3 
 
--   an elastic net, tuning `penalty()` and `mixture()`
--   a boosted tree, tuning `learn_rate()` and `mtry()`
+In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
 
-Use the RMSE metric to tune models and assess model performance on the test set. <br><br>
+1. Descriptive Models: **YOUR DESCRIPTION**
 
-### Exercise 2
+2. Inferential Models: **YOUR DESCRIPTION**
 
-Using your own words, briefly define each of the following terms and explain why they are important:
+3. Predictive Models: **YOUR DESCRIPTION**
 
--   V-fold cross-validation
+<br>
 
--   Repeated cross-validation
+### Question 4 
 
--   Model tuning
+We can describe predictive models by how they were developed as being either mechanistic or empirically driven. 
 
--   Data splitting
+a. What does it mean to be a mechanistic model?
 
--   Bias-variance tradeoff
+b. What does it mean to be an empirically driven model?
 
--   Overfitting
+c. How does the terminology mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
 
--   Feature engineering
+d. In general, is a mechanistic or empirically driven model easier to understand? Explain.
 
--   ROC curve
+e. How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
 
--   ROC AUC
+f. Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
 
-<br><br>
+<br>
 
-### Exercise 3
+### Question 5 
 
-A wildlife protection area is located in the park from which this data was collected. The variable `wlf` in the dataset denotes whether or not fires reached that protection area.
+Explain the difference between a regression and classification problems.
 
-The goal of this exercise is to build a model for predicting whether or not a fire will reach the protection area (`wlf`).
+<br>
 
-Use 10-fold cross validation with 2 repeats. Compare two models:
+### Question 7 
 
--   an elastic net, tuning `penalty()` and `mixture()`
--   a boosted tree, tuning `learn_rate()` and `mtry()`
+When splitting the data, why is it useful to stratify by the outcome/target variable? 
 
-Use the ROC AUC metric to tune models and assess model performance on the test set. <br><br>
+<br>
+
+### Question 8 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explantion of why we use it.
+
+<br>
+
+### Question 9 
+
+Briefly describe model tuning and why we use.
+
+<br>
+
+### Question 9 
+
+What are two common performance metrics when dealing with a regression machine learning (ML) problem?
+
+What are two common performance metrics when dealing with a classification machine learning (ML) problem?
+
+<br>
+
+### Question 11
+
+A political candidate's campaign has detailed voter history data for their constituents. The campaign is interested in two questions:
+
+1. Given a voter's profile/data how likely is it that they will vote in favor of the candidate?
+
+1. How would a voter's likelihood of support for the candidate change if they had personal contact with the candidate?
+
+Classify each question/problem as either prediction or inferential. Explain your reasoning for each
+
+<br>
+
+## Github Repo Link
+
+[YOUR GITHUB URL](TEXT FOR YOUR GITHUB URL){target="_blank"}
