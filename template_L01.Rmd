@@ -1,7 +1,6 @@
 ---
 title: "L01 Review"
-subtitle: "Data Science III (STAT 301-3)"
-author: "YOUR NAME HERE"
+subtitle: "Data Science 3 with R (STAT 301-3)"
 output: 
   html_document:
     toc: true
@@ -11,11 +10,11 @@ output:
 
 ## Overview
 
-The goal of this lab is to review vocabulary and concepts from the Data Science II (STAT 301-2).
+The goal of this lab is to review vocabulary and concepts from the Data Science 2 with R (STAT 301-2).
 
 ## Questions
 
-Please complete the following questions. Be sure that your solutions are clearly indicated and that your document is neatly formatted.
+When completing the following questions ensure that that your solutions are clearly indicated and that your document is neatly formatted. Consider including diagrams that in some of your answers since it might make things easier to describe. 
 
 
 ### Question 1
@@ -44,19 +43,30 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 
 ### Question 4 
 
-We can describe predictive models by how they were developed as being either mechanistic or empirically driven. 
+We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
 
-a. What does it mean to be a mechanistic model?
+#### Part A
+What does it mean to be a mechanistic model?
 
-b. What does it mean to be an empirically driven model?
 
-c. How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
+#### Part B
+What does it mean to be an empirically driven model?
 
-d. In general, is a mechanistic or empirically driven model easier to understand? Explain.
 
-e. How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
+#### Part C
+How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
 
-f. Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
+
+#### Part D
+In general, is a mechanistic or empirically driven model easier to understand? Explain.
+
+
+#### Part E
+How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
+
+
+#### Part F
+Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
 
 <br>
 
@@ -74,17 +84,23 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 
 ### Question 7 
 
-Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it.
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
 
 <br>
 
-### Question 8 
+### Question 8
+
+When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
+
+<br>
+
+### Question 9 
 
 Briefly describe model tuning and why we use it.
 
 <br>
 
-### Question 9 
+### Question 10 
 
 What are two common performance metrics when dealing with a regression ML problem?
 
@@ -92,7 +108,7 @@ What are two common performance metrics when dealing with a classification ML pr
 
 <br>
 
-### Question 10
+### Question 11
 
 A political candidate's campaign has detailed voter history data for their constituents. The campaign is interested in two questions:
 
@@ -100,7 +116,7 @@ A political candidate's campaign has detailed voter history data for their const
 
 1. How would a voter's likelihood of support for the candidate change if they had personal contact with the candidate?
 
-Classify each question/problem as either prediction or inferential. Explain your reasoning for each
+Classify each question/problem as either prediction or inferential. Explain your reasoning for each.
 
 <br>
 
