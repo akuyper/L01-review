@@ -247,7 +247,7 @@ YOUR SOLUTION HERE
 
 :::
 
-1. How would a voter's likelihood of support for the candidate change if they had personal contact with the candidate?
+2. How would a voter's likelihood of support for the candidate change if they had personal contact with the candidate?
 
 ::: {.callout-tip icon="false"}
 ## Solution
