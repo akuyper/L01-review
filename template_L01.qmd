@@ -2,23 +2,25 @@
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
 author: "YOUR NAME"
+pagetitle: "L01 YOUR NAME"
 date: today
 
 format:
   html:
+    theme: cosmo
     toc: true
     toc-depth: 4
+    toc-location: left
     embed-resources: true
-    code-fold: show
+    code-fold: false
     link-external-newwindow: true
-    
+
 execute:
   warning: false
-  
-from: markdown+emoji
 
+from: markdown+emoji
 reference-location: margin
-citation-location: margin
+citation-location: margin   
 ---
 
 ::: {.callout-tip icon="false"}
@@ -31,7 +33,7 @@ To link to your github **repo**sitory, appropriately edit the example link below
 
 ## Overview
 
-The goal of this lab is to review vocabulary and concepts from the Data Science 2 with R (STAT 301-2).
+The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
 
 ## Questions
 
@@ -239,9 +241,9 @@ YOUR SOLUTION HERE
 
 Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
 
-A political candidate's campaign has detailed voter history data for their constituents. The campaign is interested in two questions:
+A company with a subscription based service (for example Netflix, Disney+, New York Times, etc) has data concerning customer interactions with a them, including features like the number of customer service calls, quality of service calls, subscription length, engagement with the service, discounted service, etc. They are interested in two questions:
 
-1. Given a voter's profile/data how likely is it that they will vote in favor of the candidate?
+1. Does a high number of service calls impact a customer's likelihood of churn in the next month (leave the company/drop the service)?
 
 ::: {.callout-tip icon="false"}
 ## Solution
@@ -250,7 +252,7 @@ YOUR SOLUTION HERE
 
 :::
 
-2. How would a voter's likelihood of support for the candidate change if they had personal contact with the candidate?
+2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
 
 ::: {.callout-tip icon="false"}
 ## Solution
